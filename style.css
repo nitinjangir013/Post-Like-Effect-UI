@@ -1,0 +1,77 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html,body
+{
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	font-family: arial;
+	background: rgba(233,238,250,1);
+}
+
+.container
+{
+	padding-top: 1px;
+}
+
+.main_div_container
+{
+	width: 300px;
+	height: 350px;
+	background: rgba(48,52,57,1);
+	margin:auto;
+	margin-top: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 15px 20px rgba(0,0,100,0.3);
+	overflow: hidden;
+}
+
+.main_img
+{
+	width: 100%;
+}
+
+.like_comment_share_container
+{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+
+.like_comment_share_container .icons
+{
+	width: 20px;
+	filter: invert(100%);
+	cursor: pointer;
+}
+
+.like_emoji_container
+{
+	width: 0px;
+	background: rgba(48,52,57,0.8);
+	padding: 5px 0;
+	border-radius: 50px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position:absolute;
+	top: -45px;
+	transition: all 0.3s;
+}
+
+.emoji_icon
+{
+	width: 30px;
+	cursor: pointer;
+}
